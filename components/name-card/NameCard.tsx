@@ -155,8 +155,8 @@ export const NameCard: React.FC<NameCardProps> = ({
                         variant="secondary"
                         className={`text-sm px-3 py-1 ${
                           theme.textColor === "text-white"
-                            ? "bg-white/20"
-                            : "bg-black/5"
+                            ? "bg-white/80"
+                            : "bg-white/60"
                         } backdrop-blur-sm`}
                       >
                         <span>{language?.flag}</span>
@@ -171,8 +171,8 @@ export const NameCard: React.FC<NameCardProps> = ({
                     variant="secondary"
                     className={`text-sm px-3 py-1 ${
                       theme.textColor === "text-white"
-                        ? "bg-white/20"
-                        : "bg-black/5"
+                        ? "bg-white/80"
+                        : "bg-white/60"
                     } backdrop-blur-sm`}
                   >
                     {nameCard.pronouns}
