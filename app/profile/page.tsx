@@ -83,7 +83,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-blue-50 p-4 mt-20">
+    <div className="min-h-screen bg-gradient-to-br from-white to-blue-50 py-4 mt-20">
       <div className="container mx-auto py-8 max-w-4xl">
         {/* Profile Header */}
         <Card className="mb-8">
@@ -118,12 +118,6 @@ export default function ProfilePage() {
                   Manage and share your name pronunciation cards
                 </CardDescription>
               </div>
-              <Link href="/create">
-                <Button>
-                  <Plus className="h-4 w-4 mr-2" />
-                  Create New Card
-                </Button>
-              </Link>
             </div>
           </CardHeader>
           <CardContent>
